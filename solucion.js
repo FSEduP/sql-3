@@ -44,3 +44,19 @@ Jeremy Bowers
 //porque coincide la matrícula y porque ha salido dos veces como sospechoso y porque Joe (el otro sospechoso) estaba en un evento de facebook (SELECT * FROM facebook_event_checkin WHERE person_id = 67318)
 
 
+
+//SELECT * FROM interview WHERE person_id = "67318"
+
+/*
+SELECT * FROM drivers_license WHERE gender like 'female' 
+and hair_color like 'red' 
+and car_model like 'model S'
+and car_make like 'tesla'
+and height between 65 and 67
+*/
+
+/*
+SELECT * FROM facebook_event_checkin WHERE event_name LIKE "SQL Sym%" 
+AND date LIKE "201712%" 
+AND GROUP BY person_id COUNT(person_id)
+*/
